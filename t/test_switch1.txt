@@ -1,0 +1,39 @@
+
+a , b ;
+{
+input a;
+input b;
+
+    SWITCH a
+    {
+        CASE 1: 
+        { 
+            output a;
+        }
+        CASE 2: { 
+            a = a + 1;
+            output a;
+        }
+        CASE 3: { 
+            a = a + 1;
+            output a;
+        }
+    }
+    SWITCH b
+    {
+        CASE 7: 
+        { 
+           output b;
+        }
+        CASE 2: { 
+            a = a + 1;
+            output a;
+        }
+        CASE 3: { 
+            a = a + 1;
+            output a;
+        }
+    }
+
+}
+2 2 2 5 3
